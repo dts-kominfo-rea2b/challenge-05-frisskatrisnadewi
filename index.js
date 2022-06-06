@@ -7,11 +7,11 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 // "2. Nama"
 // ...
 const sorter = (nama,csort)=>{
-  let urut=csort(nama);
+  let urut=csort(nama)
   let arr=[]
 
   for (i =0;i <urut.length;i++) {
-    arr[i]= `${i+1}.${urut[i]}`
+    arr[i]= `${i+1}. ${urut[i]}`
     
   }
   return arr
